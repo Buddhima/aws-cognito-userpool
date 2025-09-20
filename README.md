@@ -95,4 +95,5 @@ Example:
 `https://dev-my-api-gateway-ap-southeast-2.auth.ap-southeast-2.amazoncognito.com`
 
 **Login and Signup:** Visit the AWS Management Console, navigate to the Cognito service, select the correct User Pool, and find the App integration tab. From there, select your App Client to find the hosted UI and generate the login URL.
+
 **Redirect URI:** Currently, Postman desktop client URL is used as the callback URI during development. This must be updated to a production-ready URI for live deployments.
