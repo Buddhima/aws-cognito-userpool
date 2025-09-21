@@ -13,8 +13,8 @@ export class GatewayUserPoolStack extends cdk.Stack {
     super(scope, id, props);
 
     const stage: string = props.stage;
-    const userPoolNamePrefix: string = `${stage}-nova-api-gateway`;
-    const resourceServerId: string = `${stage}.novagateway.co.nz`;
+    const userPoolNamePrefix: string = `${stage}-my-api-gateway`;
+    const resourceServerId: string = `${stage}.mygateway.co.nz`;
 
     // 1. Defining the Cognito User Pool
     const userPool = new cognito.UserPool(this, 'CognitoUserPool', {
